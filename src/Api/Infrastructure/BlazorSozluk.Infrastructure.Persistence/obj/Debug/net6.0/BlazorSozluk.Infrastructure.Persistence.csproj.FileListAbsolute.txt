@@ -1,8 +1,3 @@
-C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\BlazorSozluk.Infrastructure.Persistence\obj\Debug\net6.0\BlazorSozluk.Infrastructure.Persistence.csproj.AssemblyReference.cache
-C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\BlazorSozluk.Infrastructure.Persistence\obj\Debug\net6.0\BlazorSozluk.Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\BlazorSozluk.Infrastructure.Persistence\obj\Debug\net6.0\BlazorSozluk.Infrastructure.Persistence.AssemblyInfoInputs.cache
-C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\BlazorSozluk.Infrastructure.Persistence\obj\Debug\net6.0\BlazorSozluk.Infrastructure.Persistence.AssemblyInfo.cs
-C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\BlazorSozluk.Infrastructure.Persistence\obj\Debug\net6.0\BlazorSozluk.Infrastructure.Persistence.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\BlazorSozluk.Infrastructure.Persistence\bin\Debug\net6.0\BlazorSozluk.Infrastructure.Persistence.deps.json
 C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\BlazorSozluk.Infrastructure.Persistence\bin\Debug\net6.0\BlazorSozluk.Infrastructure.Persistence.runtimeconfig.json
 C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\BlazorSozluk.Infrastructure.Persistence\bin\Debug\net6.0\BlazorSozluk.Infrastructure.Persistence.dll
@@ -11,6 +6,11 @@ C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\Blazo
 C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\BlazorSozluk.Infrastructure.Persistence\bin\Debug\net6.0\BlazorSozluk.Common.dll
 C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\BlazorSozluk.Infrastructure.Persistence\bin\Debug\net6.0\BlazorSozluk.Api.Domain.pdb
 C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\BlazorSozluk.Infrastructure.Persistence\bin\Debug\net6.0\BlazorSozluk.Common.pdb
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\BlazorSozluk.Infrastructure.Persistence\obj\Debug\net6.0\BlazorSozluk.Infrastructure.Persistence.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\BlazorSozluk.Infrastructure.Persistence\obj\Debug\net6.0\BlazorSozluk.Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\BlazorSozluk.Infrastructure.Persistence\obj\Debug\net6.0\BlazorSozluk.Infrastructure.Persistence.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\BlazorSozluk.Infrastructure.Persistence\obj\Debug\net6.0\BlazorSozluk.Infrastructure.Persistence.AssemblyInfo.cs
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\BlazorSozluk.Infrastructure.Persistence\obj\Debug\net6.0\BlazorSozluk.Infrastructure.Persistence.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\BlazorSozluk.Infrastructure.Persistence\obj\Debug\net6.0\BlazorSozluk.Infrastructure.Persistence.csproj.CopyComplete
 C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\BlazorSozluk.Infrastructure.Persistence\obj\Debug\net6.0\BlazorSozluk.Infrastructure.Persistence.dll
 C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Infrastructure\BlazorSozluk.Infrastructure.Persistence\obj\Debug\net6.0\refint\BlazorSozluk.Infrastructure.Persistence.dll

@@ -21,6 +21,10 @@ namespace BlazorSozluk.Infrastructure.Persistence.Extensions
                     opt.EnableRetryOnFailure();
                 });
             });
+
+            var seedData = new SeedData();
+            seedData.SeedAsync(configuration).GetAwaiter().GetResult();
+
             return services;
         }
     }
