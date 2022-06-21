@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\BlazorSozuk\\BlazorSozluk\\src\\Api\\Core\\BlazorSozluk.Api.Domain\\BlazorSozluk.Api.Application\\BlazorSozluk.Api.Application.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\BlazorSozuk\\BlazorSozluk\\src\\Api\\Core\\BlazorSozluk.Api.Application\\BlazorSozluk.Api.Application.csproj",
       "projectName": "BlazorSozluk.Api.Application",
-      "projectPath": "C:\\Users\\user\\source\\repos\\BlazorSozuk\\BlazorSozluk\\src\\Api\\Core\\BlazorSozluk.Api.Domain\\BlazorSozluk.Api.Application\\BlazorSozluk.Api.Application.csproj",
+      "projectPath": "C:\\Users\\user\\source\\repos\\BlazorSozuk\\BlazorSozluk\\src\\Api\\Core\\BlazorSozluk.Api.Application\\BlazorSozluk.Api.Application.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\BlazorSozuk\\BlazorSozluk\\src\\Api\\Core\\BlazorSozluk.Api.Domain\\BlazorSozluk.Api.Application\\obj\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\BlazorSozuk\\BlazorSozluk\\src\\Api\\Core\\BlazorSozluk.Api.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
