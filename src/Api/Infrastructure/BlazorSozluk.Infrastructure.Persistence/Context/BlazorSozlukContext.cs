@@ -12,9 +12,26 @@ namespace BlazorSozluk.Infrastructure.Persistence.Context;
 public class BlazorSozlukContext:DbContext
 {
     public const string DEFAULT_SCHEMA = "dbo";
+
+    public BlazorSozlukContext()
+    {
+
+    }
     public BlazorSozlukContext(DbContextOptions options):base(options)
     {
         
+    }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        if (!optionsBuilder.IsConfigured)
+        {
+            var connString = 
+            optionsBuilder.UseSqlServer("Data Source=localhost;Initial Catalog=blazorsozluk;Integrated Security=true;", opt =>
+            {
+                opt.EnableRetryOnFailure();
+            });
+        }
     }
 
     public DbSet<User> Users { get; set; }

@@ -14,4 +14,7 @@ public class Entry:BaseEntity
     public virtual User CreatedBy { get; set; }
     public virtual ICollection<EntryComment> EntryComments { get; set; }
     public virtual ICollection<EntryFavorite> EntryFavorites { get; set; }
+    public virtual ICollection<EntryVote> EntryVotes { get; set; }
+
+
 }

@@ -16,7 +16,7 @@ public class EmailConfirmationEntityConfiguration : BaseEntityConfiguration<Api.
     {
         base.Configure(builder);
 
-        builder.ToTable("emailconfirmation", BlazorSozlukContext.DEFAULT_SCHEMA);
+        builder.ToTable("user", BlazorSozlukContext.DEFAULT_SCHEMA);
 
     }
 }

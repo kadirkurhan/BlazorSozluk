@@ -18,7 +18,7 @@ public class EntryFavoriteEntityConfiguration:BaseEntityConfiguration<Api.Domain
         builder.ToTable("entryfavorite", BlazorSozlukContext.DEFAULT_SCHEMA);
 
         builder.HasOne(i => i.Entry).WithMany(i => i.EntryFavorites).HasForeignKey(i => i.EntryId);
-        builder.HasOne(i => i.CreatedUser).WithMany(i => i.EntryFavorites).HasForeignKey(i => i.CreatedById);
+        builder.HasOne(i => i.CreatedUser).WithMany(i => i.EntryFavorites).HasForeignKey(i => i.CreatedById).OnDelete(DeleteBehavior.Restrict);
 
     }
 }
