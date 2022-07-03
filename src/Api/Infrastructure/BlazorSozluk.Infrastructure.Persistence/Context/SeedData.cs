@@ -53,7 +53,7 @@ internal class SeedData
         await context.Entries.AddRangeAsync(entries);
 
         var comments = new Faker<EntryComment>("tr")
-            .RuleFor(x => x.Id, Guid.NewGuid())
+            .RuleFor(x => x.Id,  Guid.NewGuid())
             .RuleFor(x => x.CreateDate, x => x.Date.Between(DateTime.Now.AddDays(-100), DateTime.Now))
             .RuleFor(x => x.Content, x => x.Lorem.Paragraph(2))
             .RuleFor(x => x.CreatedById, x => x.PickRandom(userIds))
