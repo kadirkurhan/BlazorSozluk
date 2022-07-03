@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "BlazorSozluk.Api.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BlazorSozluk.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlazorSozluk.Api.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazorSozluk.Api.Domain.dll": {}
+        }
+      },
+      "BlazorSozluk.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BlazorSozluk.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazorSozluk.Common.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BlazorSozluk.Api.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BlazorSozluk.Api.Domain/BlazorSozluk.Api.Domain.csproj",
+      "msbuildProject": "../BlazorSozluk.Api.Domain/BlazorSozluk.Api.Domain.csproj"
+    },
+    "BlazorSozluk.Common/1.0.0": {
+      "type": "project",
+      "path": "../../../Common/BlazorSozluk.Common/BlazorSozluk.Common.csproj",
+      "msbuildProject": "../../../Common/BlazorSozluk.Common/BlazorSozluk.Common.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "BlazorSozluk.Api.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\user\\.nuget\\packages\\": {}
@@ -33,7 +70,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\user\\source\\repos\\BlazorSozuk\\BlazorSozluk\\src\\Api\\Core\\BlazorSozluk.Api.Domain\\BlazorSozluk.Api.Domain.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\repos\\BlazorSozuk\\BlazorSozluk\\src\\Api\\Core\\BlazorSozluk.Api.Domain\\BlazorSozluk.Api.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

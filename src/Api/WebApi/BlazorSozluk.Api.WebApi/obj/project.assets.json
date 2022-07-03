@@ -684,6 +684,19 @@
           }
         }
       },
+      "BlazorSozluk.Api.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BlazorSozluk.Api.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlazorSozluk.Api.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazorSozluk.Api.Application.dll": {}
+        }
+      },
       "BlazorSozluk.Api.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -711,6 +724,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "BlazorSozluk.Api.Application": "1.0.0",
           "BlazorSozluk.Api.Domain": "1.0.0",
           "Bogus": "34.0.2",
           "Microsoft.EntityFrameworkCore": "6.0.4",
@@ -2056,6 +2070,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "BlazorSozluk.Api.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/BlazorSozluk.Api.Application/BlazorSozluk.Api.Application.csproj",
+      "msbuildProject": "../../Core/BlazorSozluk.Api.Application/BlazorSozluk.Api.Application.csproj"
     },
     "BlazorSozluk.Api.Domain/1.0.0": {
       "type": "project",
