@@ -22,7 +22,7 @@ namespace BlazorSozluk.Infrastructure.Persistence.Repositories
             this.dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
         }
 
-        public int Add(T entity)
+        public virtual int Add(T entity)
         {
             this.entity.Add(entity);
             return dbContext.SaveChanges();
@@ -63,7 +63,7 @@ namespace BlazorSozluk.Infrastructure.Persistence.Repositories
             return dbContext.SaveChanges();
         }
 
-        public async Task<int> AddOrUpdateAsync(T entity)
+        public virtual async Task<int> AddOrUpdateAsync(T entity)
         {
             if (!this.entity.Local.Any(i => EqualityComparer<Guid>.Default.Equals(i.Id, entity.Id)))
             {
@@ -87,12 +87,12 @@ namespace BlazorSozluk.Infrastructure.Persistence.Repositories
             return dbContext.SaveChangesAsync();
         }
 
-        public Task BulkDelete(Expression<Func<T, bool>> predicate)
+        public virtual Task BulkDelete(Expression<Func<T, bool>> predicate)
         {
             throw new NotImplementedException();
         }
 
-        public Task BulkDelete(IEnumerable<T> entities)
+        public virtual Task BulkDelete(IEnumerable<T> entities)
         {
             throw new NotImplementedException();
         }
@@ -107,7 +107,7 @@ namespace BlazorSozluk.Infrastructure.Persistence.Repositories
             return dbContext.SaveChangesAsync();
         }
 
-        public Task BulkUpdate(IEnumerable<T> entities)
+        public virtual Task BulkUpdate(IEnumerable<T> entities)
         {
             throw new NotImplementedException();
         }
@@ -144,24 +144,24 @@ namespace BlazorSozluk.Infrastructure.Persistence.Repositories
             return await DeleteAsync(entity);
         }
 
-        public bool DeleteRange(Expression<Func<T, bool>> predicate)
+        public virtual bool DeleteRange(Expression<Func<T, bool>> predicate)
         {
-            dbContext.RemoveRange(predicate);
+            dbContext.RemoveRange(entity.Where(predicate));
             return dbContext.SaveChanges() > 0;
         }
 
-        public async Task<bool> DeleteRangeAsync(Expression<Func<T, bool>> predicate)
+        public virtual async Task<bool> DeleteRangeAsync(Expression<Func<T, bool>> predicate)
         {
-            dbContext.RemoveRange(predicate);
+            dbContext.RemoveRange(entity.Where(predicate));
             return await dbContext.SaveChangesAsync() > 0;
         }
 
-        public Task<T> FirstOrDefaultAsync(Expression<Func<T, bool>> predicate, bool noTracking = true, params Expression<Func<T, object>>[] includes)
+        public virtual Task<T> FirstOrDefaultAsync(Expression<Func<T, bool>> predicate, bool noTracking = true, params Expression<Func<T, object>>[] includes)
         {
             return Get(predicate, noTracking, includes).FirstOrDefaultAsync();
         }
 
-        public IQueryable<T> Get(Expression<Func<T, bool>> predicate, bool noTracking = true, params Expression<Func<T, object>>[] includes)
+        public virtual IQueryable<T> Get(Expression<Func<T, bool>> predicate, bool noTracking = true, params Expression<Func<T, object>>[] includes)
         {
             var query = entity.AsQueryable();
             if (predicate is not null)
@@ -176,12 +176,12 @@ namespace BlazorSozluk.Infrastructure.Persistence.Repositories
             return query;
         }
 
-        public Task<List<T>> GetAll(bool noTracking = true)
+        public virtual Task<List<T>> GetAll(bool noTracking = true)
         {
             throw new NotImplementedException();
         }
 
-        public async Task<T> GetByIdAsync(Guid id, bool noTracking = true, params Expression<Func<T, object>>[] includes)
+        public virtual async Task<T> GetByIdAsync(Guid id, bool noTracking = true, params Expression<Func<T, object>>[] includes)
         {
             T found = await entity.FindAsync(id);
             if (found is null)
@@ -200,7 +200,7 @@ namespace BlazorSozluk.Infrastructure.Persistence.Repositories
             return found;
         }
 
-        public async Task<List<T>> GetList(Expression<Func<T, bool>> predicate, bool noTracking = true, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, params Expression<Func<T, object>>[] includes)
+        public virtual async Task<List<T>> GetList(Expression<Func<T, bool>> predicate, bool noTracking = true, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, params Expression<Func<T, object>>[] includes)
         {
             IQueryable<T> query = entity;
             if (predicate is not null)
@@ -222,7 +222,7 @@ namespace BlazorSozluk.Infrastructure.Persistence.Repositories
             return await query.ToListAsync();
         }
 
-        public async Task<T> GetSingleAsync(Expression<Func<T, bool>> predicate, bool noTracking = true, params Expression<Func<T, object>>[] includes)
+        public virtual async Task<T> GetSingleAsync(Expression<Func<T, bool>> predicate, bool noTracking = true, params Expression<Func<T, object>>[] includes)
         {
             IQueryable<T> query = entity;
             if (predicate is not null)
