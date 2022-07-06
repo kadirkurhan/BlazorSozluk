@@ -76,3 +76,4 @@ C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.
 C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.Api.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.Api.WebApi\bin\Debug\net6.0\BlazorSozluk.Api.Application.dll
 C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.Api.WebApi\bin\Debug\net6.0\BlazorSozluk.Api.Application.pdb
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.Api.WebApi\bin\Debug\net6.0\RabbitMQ.Client.dll
