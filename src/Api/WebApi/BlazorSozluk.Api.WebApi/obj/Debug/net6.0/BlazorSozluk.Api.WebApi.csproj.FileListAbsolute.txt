@@ -65,3 +65,14 @@ C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.
 C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.Api.WebApi\obj\Debug\net6.0\BlazorSozluk.Api.WebApi.pdb
 C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.Api.WebApi\obj\Debug\net6.0\BlazorSozluk.Api.WebApi.genruntimeconfig.cache
 C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.Api.WebApi\obj\Debug\net6.0\ref\BlazorSozluk.Api.WebApi.dll
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.Api.WebApi\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.Api.WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.Api.WebApi\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.Api.WebApi\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.Api.WebApi\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.Api.WebApi\bin\Debug\net6.0\MediatR.dll
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.Api.WebApi\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.Api.WebApi\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.Api.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.Api.WebApi\bin\Debug\net6.0\BlazorSozluk.Api.Application.dll
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\WebApi\BlazorSozluk.Api.WebApi\bin\Debug\net6.0\BlazorSozluk.Api.Application.pdb

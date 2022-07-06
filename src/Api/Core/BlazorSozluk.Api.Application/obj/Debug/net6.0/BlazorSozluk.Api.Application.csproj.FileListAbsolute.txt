@@ -10,3 +10,8 @@ C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Core\BlazorSozluk.Ap
 C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\obj\Debug\net6.0\refint\BlazorSozluk.Api.Application.dll
 C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\obj\Debug\net6.0\BlazorSozluk.Api.Application.pdb
 C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\obj\Debug\net6.0\ref\BlazorSozluk.Api.Application.dll
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\bin\Debug\net6.0\BlazorSozluk.Api.Domain.dll
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\bin\Debug\net6.0\BlazorSozluk.Common.dll
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\bin\Debug\net6.0\BlazorSozluk.Api.Domain.pdb
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\bin\Debug\net6.0\BlazorSozluk.Common.pdb
+C:\Users\user\source\repos\BlazorSozuk\BlazorSozluk\src\Api\Core\BlazorSozluk.Api.Application\obj\Debug\net6.0\BlazorSozluk.Api.Application.csproj.CopyComplete
