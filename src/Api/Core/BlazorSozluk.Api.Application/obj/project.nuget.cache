@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XQhqTevF5K9ifHEPE2SRQwHNKOhqIKfmOWtHT+n0tirG7GDQyMACy2IewkXApEgFbE+0ApZ2wIOh3s9jz+LCpg==",
+  "dgSpecHash": "ua0zryIlGYKvYJR8lGNlfq4a6Fco42PTZgRK84nJltNWRYMczHtB4Vep+c5Q0Y3Xv2Bo39hl0EBryfkbJeJfrA==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\BlazorSozuk\\BlazorSozluk\\src\\Api\\Core\\BlazorSozluk.Api.Application\\BlazorSozluk.Api.Application.csproj",
   "expectedPackageFiles": [

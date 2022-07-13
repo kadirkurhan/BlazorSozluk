@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "t09TBOHH7PVwRCd7CF8QLK4FLdD+Bw6szlmNbVZeP+SlzW6DdHgAqTW70502hiS0rGp9cJp5LtfFrj/R1dbQeg==",
+  "dgSpecHash": "haCijZCP7JAlEHhGbFHOmZX4TymEicod/NqsjbJEatsnc94ROo0HYKDLsozvdQAckq4lKv2zIqlVD2eLoEeUuA==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\BlazorSozuk\\BlazorSozluk\\src\\Projections\\BlazorSozluk.Projections.VoteService\\BlazorSozluk.Projections.VoteService.csproj",
   "expectedPackageFiles": [
