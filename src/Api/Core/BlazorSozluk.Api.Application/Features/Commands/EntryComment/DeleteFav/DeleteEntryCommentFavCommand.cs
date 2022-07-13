@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace BlazorSozluk.Api.Application.Features.Commands.Entry.DeleteFav
 {
-    public class DeleteEntryFavCommand:IRequest<bool>
+    public class DeleteEntryCommentFavCommand:IRequest<bool>
     {
-        public Guid? EntryId { get; set; }
+        public Guid? EntryCommentId { get; set; }
         public Guid UserId { get; set; }
 
-        public DeleteEntryFavCommand(Guid? entryId, Guid userId)
+        public DeleteEntryCommentFavCommand(Guid? entryCommentId, Guid userId)
         {
-            EntryId = entryId;
+            EntryCommentId = entryCommentId;
             UserId = userId;
         }
     }

@@ -5,14 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlazorSozluk.Api.Application.Features.Commands.Entry.DeleteFav
+namespace BlazorSozluk.Api.Application.Features.Commands.Entry.DeleteVote
 {
-    public class DeleteEntryFavCommand:IRequest<bool>
+    public class DeleteEntryVoteCommand : IRequest<bool>
     {
         public Guid? EntryId { get; set; }
         public Guid UserId { get; set; }
 
-        public DeleteEntryFavCommand(Guid? entryId, Guid userId)
+        public DeleteEntryVoteCommand(Guid? entryId, Guid userId)
         {
             EntryId = entryId;
             UserId = userId;

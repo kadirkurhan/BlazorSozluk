@@ -18,7 +18,12 @@ namespace BlazorSozluk.Common.Constants
         public const string CreateEntryFavQueueName = "CreateEntryFavQueue";
         public const string VoteExchangeName = "VoteExchange";
         public const string CreateEntryVoteQueueName = "CreateEntryVoteQueue";
+        public const string DeleteEntryFavQueueName = "DeleteEntryFavQueue";
+        public const string DeleteEntryVoteQueueName = "DeleteEntryVoteQueue";
+        public const string CreateEntryCommentVoteQueueName = "CreateEntryCommentVoteQueue";
 
+        public const string DeleteEntryCommentFavQueueName = "DeleteEntryCommentFavQueue";
+        public const string DeleteEntryCommentVoteQueueName = "DeleteEntryCommentVoteQueue";
 
 
 
