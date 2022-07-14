@@ -1,4 +1,5 @@
-﻿using BlazorSozluk.Common.ViewModels.RequestModels;
+﻿using BlazorSozluk.Api.Application.Features.Queries.GetEntries;
+using BlazorSozluk.Common.ViewModels.RequestModels;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -37,6 +38,13 @@ namespace BlazorSozluk.Api.WebApi.Controllers
             }
             var result = await _mediator.Send(command);
             return Ok(result);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetEntries([FromQuery] GetEntriesQuery query)
+        {
+            var entries = await _mediator.Send(query);
+            return Ok(entries);
         }
     }
 }

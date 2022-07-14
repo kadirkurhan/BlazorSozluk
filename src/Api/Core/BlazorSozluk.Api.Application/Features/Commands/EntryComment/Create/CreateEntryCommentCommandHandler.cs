@@ -17,6 +17,12 @@ namespace BlazorSozluk.Api.Application.Features.Commands.EntryComment.Create
         private readonly IEntryCommentRepository _entryCommentRepository;
         private readonly IMapper _mapper;
 
+        public CreateEntryCommentCommandHandler(IEntryCommentRepository entryCommentRepository, IMapper mapper)
+        {
+            _entryCommentRepository = entryCommentRepository;
+            _mapper = mapper;
+        }
+
         public async Task<Guid> Handle(CreateEntryCommentCommand request, CancellationToken cancellationToken)
         {
             var dbEntryComment = _mapper.Map<Domain.Models.EntryComment>(request);

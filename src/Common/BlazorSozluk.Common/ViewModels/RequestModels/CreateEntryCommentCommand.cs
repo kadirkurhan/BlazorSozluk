@@ -12,10 +12,7 @@ namespace BlazorSozluk.Common.ViewModels.RequestModels
         public Guid EntryID { get; set; }
         public string Content { get; set; }
         public Guid? CreatedById { get; set; }
-        public CreateEntryCommentCommand()
-        {
 
-        }
         public CreateEntryCommentCommand(Guid entryID, string content, Guid createdById)
         {
             EntryID = entryID;
