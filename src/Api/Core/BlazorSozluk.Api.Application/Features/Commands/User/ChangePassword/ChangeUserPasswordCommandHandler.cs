@@ -37,7 +37,7 @@ namespace BlazorSozluk.Api.Application.Features.Commands.User.ChangePassword
                 throw new DatabaseValidationException("User not found!");
             }
 
-            dbUser.Password = encPass;
+            dbUser.Password = PasswordEncryptor.Encrypt(request.NewPassword);
             await _userRepository.UpdateAsync(dbUser);
             return true;
         }
