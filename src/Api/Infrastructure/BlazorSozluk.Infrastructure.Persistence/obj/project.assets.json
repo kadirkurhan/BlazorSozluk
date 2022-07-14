@@ -815,6 +815,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "MediatR": "10.0.1",
+          "Microsoft.EntityFrameworkCore": "6.0.4",
           "RabbitMQ.Client": "6.4.0"
         },
         "compile": {

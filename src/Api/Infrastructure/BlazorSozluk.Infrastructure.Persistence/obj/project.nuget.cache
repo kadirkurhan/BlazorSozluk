@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "K27VP1dKwkAg+0OPz2DqfF1UquBKSdzkP6sb7QudF9nAKd90HH3NC/uQOKBKOi4QWlnFXTaXvkpds89f1DH3bQ==",
+  "dgSpecHash": "821D87ZdmAVPpwWcEKTnyRF1rlMUGL27Y6AuNQcLJWGkgRm9O6PFp2ks8/WV3NugK9LaU2BpYutKQGBBPHp1jQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\BlazorSozuk\\BlazorSozluk\\src\\Api\\Infrastructure\\BlazorSozluk.Infrastructure.Persistence\\BlazorSozluk.Infrastructure.Persistence.csproj",
   "expectedPackageFiles": [
