@@ -25,6 +25,9 @@
 
   <ItemGroup>
     <Folder Include="Features\Commands\Update\" />
+    <Folder Include="Features\Queries\GetEntryDetail\" />
+    <Folder Include="Features\Queries\GetUserDetail\" />
+    <Folder Include="Features\Queries\SearchBySubject\" />
   </ItemGroup>
 
 </Project>

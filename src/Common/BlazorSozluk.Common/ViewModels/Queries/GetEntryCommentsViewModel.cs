@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BlazorSozluk.Common.ViewModels.Queries
+{
+    public class GetEntryCommentsViewModel: BaseFooterRateFavoritedViewModel
+    {
+        public Guid Id { get; set; }   
+        public string Content { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public string UserName { get; set; }
+
+        //
+        public VoteType VoteType { get; set; }
+
+        public string CreatedByUserName { get; set; }
+
+    }
+}

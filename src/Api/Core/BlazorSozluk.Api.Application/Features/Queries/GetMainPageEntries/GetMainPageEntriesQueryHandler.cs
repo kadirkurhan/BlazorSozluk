@@ -41,7 +41,7 @@ namespace BlazorSozluk.Api.Application.Features.Queries.GetMainPageEntries
 
             var entries = await list.GetPaged(request.Page, request.PageSize);
 
-            return new PagedViewModel<GetEntryDetailViewModel>(entries.Results,entries.pageInfo);
+            return entries;
         }
     }
 }
