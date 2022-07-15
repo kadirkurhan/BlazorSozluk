@@ -25,7 +25,6 @@
 
   <ItemGroup>
     <Folder Include="Features\Commands\Update\" />
-    <Folder Include="Features\Queries\SearchBySubject\" />
   </ItemGroup>
 
 </Project>
